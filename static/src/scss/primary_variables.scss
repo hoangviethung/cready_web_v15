@@ -1,0 +1,17 @@
+///
+/// This file regroups the variables that style odoo components.
+/// They are available in every asset bundle.
+///
+
+// Font sizes
+$o-root-font-size: 12px !default;
+$o-font-size-base: 13rem * (1px / $o-root-font-size) !default;
+$o-line-height-base: 1.5 !default; // This is BS default
+
+// Colors
+$o-community-color: #b7ac44;
+$o-enterprise-color: #b7ac44;
+$o-enterprise-primary-color: #017e84;
+
+$o-brand-odoo: $o-community-color;
+$o-brand-primary: $o-community-color;
